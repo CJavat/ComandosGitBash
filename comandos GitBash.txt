@@ -1,0 +1,40 @@
+Etapas de Git:
+    Computadora --> Son los archivos que estamos trabajando en la computadora.
+    Estage --> Es la etapa en la que queremos verificar los cambios queremos tener. Se puede regresar los cambios hechos.
+    Commit --> Etapa en la que los archivos están comprometidos.
+    Server --> Última etapa, los cambios en los que ya están en el servidor.
+
+
+* pwd --> Para ver la ruta en la que estoy.
+* cd --> Para moverme en las carpetas.
+* cd .. --> Para regresar a la carpeta anterior.
+* mkdir --> Crear una nueva carpeta.
+* clear --> Limpiar la terminal.
+* ls --> Muestra un listado de la ruta.
+* ls -a --> Muestra un listado completo de la ruta (Incluyendo los archivos ocultos).
+* git init --> Para inicializar la carpeta con Git.
+* code . --> Abre el editor de texto (VS Code).
+* git status --> Mostrar estado actual del repositorio.
+* git add <Nombre archivo> --> Agregar el archivo al commit.
+* git add <extension> --> Agrega todos los archivos con esa extension al commit.
+* git add . --> Agrega todos los archivos. (Es mala práctica).
+* git add <Nombre archivo> <Archivo2> --> Para agregar más de 2 archivos. (Deben estar separados por un espacio).
+* git commit -m "Mensaje" --> Para comprometer los archvios.
+* rm <Nombre Archivo> --> Sirve para eliminar el archivo.
+* git retore --staged <Nombre archivo> --> Para recuperar el archivo que habías borrado (Pero que aun no se ha comprometido).
+* mv <Nombre Archvio> <Nombre Nuevo> --> Renombrar archivos.
+.ignore --> El archivo ignora archivos o carpetas que tiene escritos para que no se puedan commitear.
+* git status -s --> Una forma mejor para obtener los detalles.
+* git diff --> Te muestra el contenido que esta cambiando.
+* git diff --staged --> Te muestra el contenido que esta en el Estaged.
+* q --> Para salir de la interfaz que te muestra git diff.
+* git log --> Sirve para ver toda la información del historial de los cambios.
+* git log --oneline --> Muestra los mensajes de los commit hechos.
+* git branch --> Te muestra el nombre de la rama en la que se está trabajando.
+* git checkout -b <Nombre_Rama> --> Para crear una rama.
+* git checkout <Nombre_Rama> --> Para cambiarte de rama.
+* cat <Nombre del archivo> --> Muestra el contenido del archivo.
+* git merge <Nombre_Rama> --> Para actualizar los cambios de la rama secundaria. (Ésto siempre lo tienes que hacer en la rama principal).
+* git remote add origin <url> --> Para indicar en que repositorio se debe subir.
+* git push -u origin master --> Para subir archivo a GitHub.
+* exit --> Salir de la terminal.
