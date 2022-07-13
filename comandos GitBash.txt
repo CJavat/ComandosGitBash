@@ -37,4 +37,6 @@ Etapas de Git:
 * git merge <Nombre_Rama> --> Para actualizar los cambios de la rama secundaria. (Ésto siempre lo tienes que hacer en la rama principal).
 * git remote add origin <url> --> Para indicar en que repositorio se debe subir.
 * git push -u origin master --> Para subir archivo a GitHub.
+* git clone <url> --> Para descargar repo a la computadora.
+* git push --> Después de commitear, poner éste comando, para actualizar los cambios en la repo.
 * exit --> Salir de la terminal.
