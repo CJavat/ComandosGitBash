@@ -42,3 +42,6 @@ Etapas de Git:
 * exit ----------------------------------> Salir de la terminal.
 * git fetch -----------------------------> Descarga los archivos nuevos que están en la repo pero aún no los actualiza en local. (Sólo los deja listos para que actualices).
 * git pull ------------------------------> Actualiza los archivos en el directorio local, para que puedas modificarlos y verlos en tu pc.
+* npm install --save-dev gh-pages -------> Para instalar en la compu el GitHub Pages.
+* predeploy: 'npm run build' ------------>
+* deploy: 'gh-pages -d build' ----------->
