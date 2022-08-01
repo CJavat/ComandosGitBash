@@ -47,6 +47,7 @@ Etapas de Git:
 * npm install --save-dev gh-pages -------> Para instalar en la compu el GitHub Pages.
 * cat <Nombre del archivo> --------------> Muestra el contenido del archivo.
 * exit ----------------------------------> Salir de la terminal.
+<<<<<<< HEAD
 
 <<<<<<< HEAD
 pruebas
@@ -56,4 +57,6 @@ asdas
 <<<<<<< HEAD
 =======
 asdasd22222
+>>>>>>> nuevaRama3
+=======
 >>>>>>> nuevaRama3
