@@ -53,3 +53,7 @@ pruebas
 =======
 asdas
 >>>>>>> nuevaRama2
+<<<<<<< HEAD
+=======
+asdasd22222
+>>>>>>> nuevaRama3
