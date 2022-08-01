@@ -38,17 +38,21 @@ Etapas de Git:
 * git checkout -b <Nombre_Rama> ---------> Para crear una rama y te mueve a esa rama. (En un solo comando)
 * git merge <Nombre_Rama> ---------------> Para unir los cambios de la rama secundaria. (Ésto siempre lo tienes que hacer en la rama master/main)
 * git merge <Nombre_Rama> -m 'Mensaje' --> Para unir los cambios de la rama secundaria. (Con un mensaje)
-* git merge master - 'Mensaje' ----------> Para unir los cambios de la rama master a la secundaria. (Se debe estar en la rama secundaria)
+* git merge master -m 'Mensaje' ----------> Para unir los cambios de la rama master a la secundaria. (Se debe estar en la rama secundaria)
 * git clone <url> -----------------------> Para descargar repo a la computadora.
 * git fetch -----------------------------> Descarga los archivos nuevos que están en la repo pero aún no los actualiza en local. (Sólo los deja listos para que actualices)
 * git fetch <url> -----------------------> Descarga los archivos nuevos solo de la repo especificada.
-* git fetch <url-Repo> <url-Rama> -------> Descarga los archivos nuevos solo de la repo especificada y de su rama especificada.
+* git fetch <url-Repo> <url_Rama> -------> Descarga los archivos nuevos solo de la repo especificada y de su rama especificada.
 * git fetch --all -----------------------> Desscarga todos los repositorios remotos registrados y sus ramas.
 * git fetch --dry-run -------------------> Ejecuta una demo del comando. Genera ejemplos de acciones que realizará pero no los aplica.
 * git pull ------------------------------> Actualiza los archivos en el directorio local, para que puedas modifiscarlos y verlos en tu pc.
 * git push ------------------------------> Después de commitear, poner éste comando, para actualizar los cambios en la repo.
-* git remote add origin <url> -----------> Para indicar en que repositorio se debe subir.
 * git push -u origin master -------------> Para subir archivo a GitHub.
+* git push -u origin <Nombre_Rama> ------> Para subir los cambios a la rama especificada.
+* git remote add origin <url> -----------> Para indicar en que repositorio se debe subir.
+* git branch -d <Nombre_Rama> -----------> Para borrar una rama local.
+* git branch -D <Nombre_Rama> -----------> para forzar a borrar una rama local aunque no se hayan guardado cambios, etc.
+* git push origin --delete <Nom_Rama> ---> Para borrar una rama remota
 * npm install --save-dev gh-pages -------> Para instalar en la compu el GitHub Pages.
 * cat <Nombre del archivo> --------------> Muestra el contenido del archivo.
 * exit ----------------------------------> Salir de la terminal.
