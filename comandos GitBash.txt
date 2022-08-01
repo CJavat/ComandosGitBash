@@ -30,7 +30,8 @@ Etapas de Git:
 * q -------------------------------------> Para salir de la interfaz que te muestra git diff.
 * git log -------------------------------> Sirve para ver toda la información del historial de los cambios.
 * git log --oneline ---------------------> Muestra los mensajes de los commit hechos.
-* git branch ----------------------------> Te muestra el nombre de la rama en la que se está trabajando.
+* git branch ----------------------------> Te muestra las ramas que existen y en la que se está trabajando.
+* git branch -r -------------------------> Te muestra las ramas que existen en el repositorio y en la que se está trabajando.
 * git branch <Nombre_Rama> --------------> Crear una rama con ese nombre.
 * git show-branch -----------------------> Obtener información más detallada de la rama.
 * git checkout <Nombre_Rama> ------------> Para cambiarte de rama.
@@ -47,3 +48,4 @@ Etapas de Git:
 * npm install --save-dev gh-pages -------> Para instalar en la compu el GitHub Pages.
 * cat <Nombre del archivo> --------------> Muestra el contenido del archivo.
 * exit ----------------------------------> Salir de la terminal.
+asd
