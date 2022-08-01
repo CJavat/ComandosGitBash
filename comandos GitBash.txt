@@ -50,6 +50,7 @@ Etapas de Git:
 <<<<<<< HEAD
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 pruebas
 =======
 asdas
@@ -60,3 +61,5 @@ asdasd22222
 >>>>>>> nuevaRama3
 =======
 >>>>>>> nuevaRama3
+=======
+>>>>>>> nuevaRama1
