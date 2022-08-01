@@ -11,14 +11,14 @@ Etapas de Git:
 * mkdir ---------------------------------> Crear una nueva carpeta.
 * clear ---------------------------------> Limpiar la terminal.
 * ls ------------------------------------> Muestra un listado de la ruta.
-* ls -a ---------------------------------> Muestra un listado completo de la ruta (Incluyendo los archivos ocultos).
+* ls -a ---------------------------------> Muestra un listado completo de la ruta. (Incluyendo los archivos ocultos)
 * git init ------------------------------> Para inicializar la carpeta con Git.
-* code . --------------------------------> Abre el editor de texto (VS Code).
+* code . --------------------------------> Abre el editor de texto configurado como predeterminado. (VS Code)
 * git status ----------------------------> Mostrar estado actual del repositorio.
 * git add <Nombre archivo> --------------> Agregar el archivo al commit.
 * git add <extension> -------------------> Agrega todos los archivos con esa extension al commit.
-* git add . -----------------------------> Agrega todos los archivos. (Es mala práctica).
-* git add <Nombre archivo> <Archivo2> ---> Para agregar más de 2 archivos. (Deben estar separados por un espacio).
+* git add . -----------------------------> Agrega todos los archivos. (Es mala práctica)
+* git add <Nombre archivo> <Archivo2> ---> Para agregar más de 2 archivos. (Deben estar separados por un espacio)
 * git commit -m "Mensaje" ---------------> Para comprometer los archvios.
 * rm <Nombre Archivo> -------------------> Sirve para eliminar el archivo.
 * git retore --staged <Nombre archivo> --> Para recuperar el archivo que habías borrado (Pero que aun no se ha comprometido).
@@ -31,17 +31,19 @@ Etapas de Git:
 * git log -------------------------------> Sirve para ver toda la información del historial de los cambios.
 * git log --oneline ---------------------> Muestra los mensajes de los commit hechos.
 * git branch ----------------------------> Te muestra el nombre de la rama en la que se está trabajando.
-* git checkout -b <Nombre_Rama> ---------> Para crear una rama.
+* git branch <Nombre_Rama> --------------> Crear una rama con ese nombre.
+* git show-branch -----------------------> Obtener información más detallada de la rama.
 * git checkout <Nombre_Rama> ------------> Para cambiarte de rama.
-* cat <Nombre del archivo> --------------> Muestra el contenido del archivo.
-* git merge <Nombre_Rama> ---------------> Para actualizar los cambios de la rama secundaria. (Ésto siempre lo tienes que hacer en la rama principal).
+* git checkout -b <Nombre_Rama> ---------> Para crear una rama y te mueve a esa rama. (En un solo comando)
+* git merge <Nombre_Rama> ---------------> Para unir los cambios de la rama secundaria. (Ésto siempre lo tienes que hacer en la rama master/main)
+* git merge <Nombre_Rama> -m 'Mensaje' --> Para unir los cambios de la rama secundaria. (Con un mensaje)
+* git merge master - 'Mensaje' ----------> Para unir los cambios de la rama master a la secundaria. (Se debe estar en la rama secundaria)
+* git push ------------------------------> Después de commitear, poner éste comando, para actualizar los cambios en la repo.
+* git clone <url> -----------------------> Para descargar repo a la computadora.
+* git fetch -----------------------------> Descarga los archivos nuevos que están en la repo pero aún no los actualiza en local. (Sólo los deja listos para que actualices)
+* git pull ------------------------------> Actualiza los archivos en el directorio local, para que puedas modificarlos y verlos en tu pc.
 * git remote add origin <url> -----------> Para indicar en que repositorio se debe subir.
 * git push -u origin master -------------> Para subir archivo a GitHub.
-* git clone <url> -----------------------> Para descargar repo a la computadora.
-* git push ------------------------------> Después de commitear, poner éste comando, para actualizar los cambios en la repo.
-* exit ----------------------------------> Salir de la terminal.
-* git fetch -----------------------------> Descarga los archivos nuevos que están en la repo pero aún no los actualiza en local. (Sólo los deja listos para que actualices).
-* git pull ------------------------------> Actualiza los archivos en el directorio local, para que puedas modificarlos y verlos en tu pc.
 * npm install --save-dev gh-pages -------> Para instalar en la compu el GitHub Pages.
-* predeploy: 'npm run build' ------------>
-* deploy: 'gh-pages -d build' ----------->
+* cat <Nombre del archivo> --------------> Muestra el contenido del archivo.
+* exit ----------------------------------> Salir de la terminal.
