@@ -48,4 +48,9 @@ Etapas de Git:
 * cat <Nombre del archivo> --------------> Muestra el contenido del archivo.
 * exit ----------------------------------> Salir de la terminal.
 
+<<<<<<< HEAD
 pruebas
+=======
+asdas
+>>>>>>> nuevaRama2
+asdasd22222
