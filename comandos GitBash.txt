@@ -41,9 +41,11 @@ Etapas de Git:
 * git push ------------------------------> Después de commitear, poner éste comando, para actualizar los cambios en la repo.
 * git clone <url> -----------------------> Para descargar repo a la computadora.
 * git fetch -----------------------------> Descarga los archivos nuevos que están en la repo pero aún no los actualiza en local. (Sólo los deja listos para que actualices)
-* git pull ------------------------------> Actualiza los archivos en el directorio local, para que puedas modificarlos y verlos en tu pc.
+* git pull ------------------------------> Actualiza los archivos en el directorio local, para que puedas modifiscarlos y verlos en tu pc.
 * git remote add origin <url> -----------> Para indicar en que repositorio se debe subir.
 * git push -u origin master -------------> Para subir archivo a GitHub.
 * npm install --save-dev gh-pages -------> Para instalar en la compu el GitHub Pages.
 * cat <Nombre del archivo> --------------> Muestra el contenido del archivo.
 * exit ----------------------------------> Salir de la terminal.
+
+pruebas
